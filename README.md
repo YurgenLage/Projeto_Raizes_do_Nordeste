@@ -4,11 +4,17 @@ Projeto desenvolvido para a disciplina de Projeto Multidisciplinar - Trilha Back
 
 O sistema representa o back-end da rede de lanchonetes Raízes do Nordeste. A aplicação foi desenvolvida com foco em usuários, unidades, produtos, estoque, pedidos, pagamentos simulados, fidelidade, promoções e auditoria.
 
+## Repositório
+
+O código-fonte do projeto está disponível em:
+
+https://github.com/YurgenLage/Projeto_Raizes_do_Nordeste
+
 ## Requisitos
 
 Para executar o projeto é necessário ter instalado:
 
-- Python 3
+- Python 3.13.14
 - pip
 - SQLite
 - Postman, para execução da coleção de testes
@@ -112,6 +118,16 @@ A coleção de testes está salva na pasta:
 Arquivo:
 
 `Raízes do Nordeste - Testes.postman_collection.json`
+
+A coleção está organizada nas pastas:
+
+- Auth
+- Pedidos
+- Pagamento
+- Estoque
+- Produtos
+- Fidelidade
+- Auditoria
 
 ## Como executar os testes
 
