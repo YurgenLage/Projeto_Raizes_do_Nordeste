@@ -436,6 +436,48 @@
             }
           },
           "response": []
+        },
+        {
+          "name": "T15 - Tipo/formato inválido.",
+          "request": {
+            "auth": {
+              "type": "bearer",
+              "bearer": [
+                {
+                  "key": "token",
+                  "value": "{{auth_secret_0hmb}}",
+                  "type": "string"
+                }
+              ]
+            },
+            "method": "POST",
+            "header": [],
+            "body": {
+              "mode": "raw",
+              "raw": "{\r\n  \"id_usuario\": 2,\r\n  \"id_unidade\": 1,\r\n  \"canal_pedido\": \"APP\",\r\n  \"itens\": [\r\n    {\r\n      \"id_produto\": 1,\r\n      \"quantidade\": \"abc\"\r\n    }\r\n  ]\r\n}",
+              "options": {
+                "raw": {
+                  "language": "json"
+                }
+              }
+            },
+            "url": {
+              "raw": "http://127.0.0.1:8000/pedidos/",
+              "protocol": "http",
+              "host": [
+                "127",
+                "0",
+                "0",
+                "1"
+              ],
+              "port": "8000",
+              "path": [
+                "pedidos",
+                ""
+              ]
+            }
+          },
+          "response": []
         }
       ]
     },
