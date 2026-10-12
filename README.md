@@ -83,13 +83,13 @@ python -m uvicorn codigo.app.main:app --reload
 
 Depois de iniciar, a API estará disponível em:
 
-`http://127.0.0.1:8000`
+[http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 ## Swagger / OpenAPI
 
 A documentação dos endpoints pode ser acessada pelo Swagger no endereço:
 
-`http://127.0.0.1:8000/docs`
+[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 
 O Swagger permite visualizar e testar os endpoints implementados na API.
 
@@ -162,6 +162,7 @@ Os tokens JWT possuem validade de 30 minutos. Caso um token expire, basta realiz
 - T12 - Produto inexistente
 - T13 - Estoque insuficiente
 - T14 - Auditoria de ação sensível
+- T15 - Tipo/formato inválido
 
 ## Dados utilizados nos testes
 
